@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* regole di debug */
+header{
+  background-color: pink;
+}
+main{
+  background-color: pink;
+}
+footer{
+  background-color: pink;
+}
+[class*="col-"] {
+  height: 150px;
+  border: solid 1px black;
+}
+
+p{
+  text-align: center;
+  padding-top: 65px;
+}
