@@ -15,11 +15,24 @@ footer{
   background-color: pink;
 }
 [class*="col-"] {
-  height: 150px;
+  position: relative;
+  height: 100%;
   border: solid 1px black;
 }
-
+[class*="container"] {
+  height: 150px;
+}
 p{
-  text-align: center;
-  padding-top: 65px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+[class*="col-"] > .container{
+  height: 100%;
+  padding: 5px;
+}
+[class*="col-"] > .container [class*="col-"] {
+  border: 1px solid white;
+  background-color: gray;
 }
