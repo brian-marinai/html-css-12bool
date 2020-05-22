@@ -5,16 +5,9 @@
 }
 
 /* regole di debug */
-header{
-  background-color: pink;
-}
-main{
-  background-color: pink;
-}
-footer{
-  background-color: pink;
-}
+
 [class*="col-"] {
+  background-color: pink;
   position: relative;
   height: 100%;
   border: solid 1px black;
